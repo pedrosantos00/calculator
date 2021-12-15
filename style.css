@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(235, 241, 241);
+    text-align: center;
+}
+
+#leitura{
+    margin-left: 5px;
+    padding: 8px;
+    background-color: rgb(181, 247, 247);
+    width: 315px;
+    height: 60px;
+    border-radius: 20px 20px 0 0;
+    text-align: right;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.main{
+background-color: orange;
+    border: solid 1px black;
+    border-radius: 20px;
+    width: 340px;
+    height: 470px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 10px;
+}
+.botao, .botao1, .clear{
+background-color: rgb(177, 176, 176);
+border: none;
+color: black;
+   width: 60px;
+   height: 65px;
+   border-radius: 50%;
+   font-size: 30px;
+   font-weight: bold;
+   text-align: center;
+   padding: 15px;
+   margin: 5px;
+   transition: 0.5s;
+   
+}
+
+.botao:hover,  .clear:hover{
+    background-color: rgb(83, 83, 83);
+
+    }
+
+.decoration{
+    margin-left:auto;
+    margin-right:auto;
+    border: 2px rgb(133, 133, 133);
+    background-color: rgb(230, 230, 230);
+    width: 330px;
+    height: 385px;
+    border-radius: 0 0 20px 20px ;
+}
+.linha{
+    margin: 10px;
+}
+.igual1{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: orange;
+    font-size: 23px;
+    border: none;
+    transition: 0.5s;
+}
+#operator{
+    background-color: orange;
+    transition: 0.5s;
+    }
+    #operator:hover, .igual1:hover, .botao1:hover{
+        background-color: rgb(160, 104, 0);
+        }
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+
+}
